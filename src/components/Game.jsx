@@ -24,7 +24,7 @@ export default function Game() {
         setWhichone(prev => prev + 1);
 
         if (num == rand) {
-            setMessage("");
+            setMessage("GOODD JOOBBB YOU GOT IT!!!");
             return;
         }
         else if (num < rand) {
@@ -68,7 +68,7 @@ export default function Game() {
                     thickness={2}
                     style={{ borderRadius: 16 }}
                 >
-                    <div className="flex flex-col items-center h-full gap-8 py-8  bg-slate-400/25 rounded-xl">
+                    <div className="flex flex-col items-center h-full gap-8 py-8 bg-slate-400/25 rounded-xl">
                     <Label
                         label={'GUESS THE NUMBER'}
                     />
