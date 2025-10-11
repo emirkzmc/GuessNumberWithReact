@@ -1,27 +1,27 @@
 # GuessNumberWithReact 🎯
 
-**GuessNumberWithReact**, kullanıcıların bir sayıyı tahmin etmeye çalıştığı interaktif bir React uygulamasıdır. Bu proje, React’in temel konseptlerini öğrenmek ve **ReactBits ile animasyonlar** ekleyerek görsel olarak daha çekici bir deneyim oluşturmak için tasarlanmıştır.
+**GuessNumberWithReact** is an interactive React application where users try to guess a randomly generated number. This project is designed to help learn core React concepts and enhance visual appeal using **ReactBits animations**.
 
-## Özellikler ✨
+## Features ✨
 
-- Rastgele sayı üretme (1-100 arası)
-- Kullanıcının tahminlerini alır ve doğru/yanlış geri bildirim verir
-- Tahmin sayısını takip eder
-- Oyun sonunda kullanıcıyı tebrik eder
-- **ReactBits animasyonları** ile görsel efektler (örn. elektrikli border, animasyonlu butonlar)
-- Kullanıcı istediğinde oyunu sıfırlayabilir
+- Generate a random number (1-100)
+- Accept user guesses and provide feedback (too high/too low/correct)
+- Track the number of guesses
+- Congratulate the user when the guess is correct
+- **ReactBits animations** for visual effects (e.g., electric borders, animated buttons)
+- Reset the game at any time
 
-## Teknolojiler 🛠️
+## Technologies 🛠️
 
 - React (Functional Components, useState, useEffect)
-- ReactBits (animasyonlar ve görsel efektler)
+- ReactBits (animations and visual effects)
 - JavaScript (ES6+)
 - HTML & CSS
-- TailwindCSS (isteğe bağlı)
+- TailwindCSS (optional)
 
-## Kurulum 🚀
+## Installation 🚀
 
-1. Repo’yu klonlayın:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/emirkzmc/GuessNumberWithReact.git
