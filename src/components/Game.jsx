@@ -104,7 +104,7 @@ export default function Game() {
                 </div>
                 {message && <p className="text-white">{message}</p>}
                 <Label
-                    label={`Number of Trials: ${whichone}`}
+                    label={`Number of trials: ${whichone}`}
                 />
             </div>
         </div>
